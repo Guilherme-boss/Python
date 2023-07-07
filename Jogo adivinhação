@@ -1,0 +1,15 @@
+Jogo de adivinhação em Python
+
+print("*********************************")
+print("Bem vindo ao jogo de adivinhação!")
+print("*********************************")
+
+numero_secreto = 42
+chute = input("Digite o seu numero:")
+print("voce digitou:" , chute)
+chute = int(chute)
+if (numero_secreto == chute):
+    print("voce acertou")
+
+else:
+    print("voce errou")
